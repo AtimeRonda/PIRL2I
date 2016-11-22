@@ -18,7 +18,7 @@ void System::display_system_info() const {
     std::cout<<name<<std::endl;
     std::cout<<"Status: ";
     if (status) {
-        std::cout<<"Problem detected"<<std::endl;
+        std::cout<<"Problem detected !"<<std::endl;
     }
     else {
         std::cout<<"Nominal"<<std::endl;
