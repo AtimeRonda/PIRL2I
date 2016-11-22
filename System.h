@@ -4,27 +4,29 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 
 #ifndef PIR_SYSTEM_H
 #define PIR_SYSTEM_H
 
 using std::string;
+using std::vector;
+using namespace std;
 
 class System {
 private:
-    string system_name;
+    string name;
     int status = 0;
     vector <System> subsystem_list;
 
 
-
 public:
-    System(string name);
+    System(string system_name);
     //construit un système défini par son nom
 
 
-    void display_system_info();
-    //affiche les principaux paramètres du système
+    void display_system_info() const;
+    string getName() const;
 
 };
 
