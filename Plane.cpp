@@ -33,6 +33,7 @@ void Plane::get_system_list() const {
         it->getName();
     }
 
+    cout<<"**********System list done**********"<<endl;
 
 
 }

@@ -5,18 +5,18 @@
 #include <vector>
 #include <string>
 #include "System.h"
+#include "Checklist.h"
 
 #ifndef PIR_PLANE_H
 #define PIR_PLANE_H
 
-using std::string;
-using std::vector;
 using namespace std;
 
 class Plane {
 private:
     string name;
     vector <System> system_list;
+    vector <Checklist> checklist_list;
 
 public:
     Plane (string plane_name);

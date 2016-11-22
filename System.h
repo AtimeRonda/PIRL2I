@@ -9,8 +9,6 @@
 #ifndef PIR_SYSTEM_H
 #define PIR_SYSTEM_H
 
-using std::string;
-using std::vector;
 using namespace std;
 
 class System {
